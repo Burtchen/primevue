@@ -18,6 +18,12 @@
                         </span>
                     </div>
                     <div class="field col-12 md:col-4">
+                        <span class="p-float-label">
+                            <InputText id="inputtext-placeholder" placeholder="Placeholder" type="text" v-model="valuePlaceholder" />
+                            <label for="inputtext-placeholder">InputText</label>
+                        </span>
+                    </div>
+                    <div class="field col-12 md:col-4">
                         <span class="p-float-label p-input-icon-left">
                             <i class="pi pi-search" />
                             <InputText id="inputtext-left" type="text" v-model="valueIconLeft" />
